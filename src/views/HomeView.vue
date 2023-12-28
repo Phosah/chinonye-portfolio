@@ -1,12 +1,14 @@
 <template>
-  <Hero />
-  <About />
-  <Projects />
-  <WorkWithMe />
-  <Services />
-  <Testimonials />
-  <Contact />
-  <FooterBar />
+  <div class="px-4 py-4">
+    <Hero />
+    <About />
+    <Projects />
+    <WorkWithMe />
+    <Services />
+    <Testimonials />
+    <Contact />
+    <FooterBar />
+  </div>
 </template>
 
 <script setup>
