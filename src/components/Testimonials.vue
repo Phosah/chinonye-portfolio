@@ -1,3 +1,42 @@
 <template>
-  <p class="bg-red-300 h-40">This is the testimonials</p>
+  <p class="bg-red-300 py-4">
+    <h2 class="mb-2">Testimonials</h2>
+
+    <div class="flex space-x-4">
+      <div class="p-3 border border-blue-200 rounded-md">
+        <component
+          :is="QuotationMarksIcon"
+          class="w-12 h-12 shrink-0 text-white"
+          aria-hidden="true"
+        ></component>
+
+        <p class="mb-4">I had the pleasure of working closely with Chinonye on the Savebud project, and I couldn't have asked for a better team-lead. 
+        Chinonye is a true creative visionary with an unparalleled passion for design. Her attention to detail, innovative ideas, and dedication to user-centric solutions were nothing short of inspiring. I'll recommend working with her anytime</p>
+
+        <p>- Precious Abachukwu</p>
+        <p>Product Designer</p>
+      </div>
+      
+      <div class="p-3 border border-blue-200 rounded-md">
+        <component
+          :is="QuotationMarksIcon"
+          class="w-12 h-12 shrink-0 text-white"
+          aria-hidden="true"
+        ></component>
+
+        <p class="mb-4">I had the pleasure of working closely with Chinonye on the Savebud project, and I couldn't have asked for a better team-lead. 
+        Chinonye is a true creative visionary with an unparalleled passion for design. Her attention to detail, innovative ideas, and dedication to user-centric solutions were nothing short of inspiring. I'll recommend working with her anytime</p>
+
+        <p>- Precious Abachukwu</p>
+        <p>Product Designer</p>
+      </div>
+    </div>
+    <div>
+
+    </div>
+  </p>
 </template>
+
+<script setup>
+import QuotationMarksIcon from './icons/QuotationMarksIcon.vue';
+</script>

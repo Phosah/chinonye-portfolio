@@ -33,7 +33,6 @@
 </template>
 
 <script setup>
-import WorkPerk from "@/assets/workperk.png";
 import RightArrowIcon from "./icons/RightArrowIcon.vue";
 
 defineProps({

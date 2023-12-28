@@ -1,8 +1,22 @@
 <template>
   <div class="bg-yellow-300 py-4">
     <h2>Featured Projects</h2>
+
     <div v-for="(project, ix) in projects" :key="ix">
       <ProjectLayout :project="project" />
+    </div>
+
+    <div>
+      <button
+        class="block w-60 mx-auto mb-6 px-6 py-2 bg-black text-white rounded-md"
+      >
+        View more projects
+      </button>
+      <button
+        class="block w-60 mx-auto px-6 py-2 bg-white text-black border-2 border-black rounded-md"
+      >
+        Hire me
+      </button>
     </div>
   </div>
 </template>
