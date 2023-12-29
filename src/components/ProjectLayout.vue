@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-8">
+  <section class="mb-8">
     <div class="mb-2">
       <img :src="project.img" :alt="project.alt" />
     </div>
@@ -7,6 +7,7 @@
     <p>
       <span>{{ project.title }}</span> - {{ project.subtitle }}
     </p>
+
     <p>
       {{ project.text }}
     </p>
@@ -23,13 +24,14 @@
 
     <div class="flex items-center space-x-2">
       <p>View case study</p>
+
       <component
         :is="RightArrowIcon"
         class="w-4 h-4 shrink-0 text-white"
         aria-hidden="true"
       ></component>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>

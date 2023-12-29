@@ -1,15 +1,18 @@
 <template>
-  <div class="bg-purple-300 py-4">
+  <section class="bg-purple-300 py-4">
     <h2 class="mb-4 text-center">About Me</h2>
-    <div class="flex items-center space-x-8">
+
+    <section class="flex items-center space-x-8">
       <div class="w-1/4">
         <h3 class="mb-2">Who am I?</h3>
+
         <component
           :is="QuestionMarkIcon"
           class="w-12 h-12 shrink-0 text-white"
           aria-hidden="true"
         ></component>
       </div>
+
       <p class="w-3/4">
         I am a highly motivated and detail-oriented Product Design professional
         with a passion for creating exceptional user experiences. I help
@@ -20,8 +23,8 @@
         making things pretty (although I love doing that too), but it's all
         about crafting seamless experiences that users can't get enough of.
       </p>
-    </div>
-  </div>
+    </section>
+  </section>
 </template>
 
 <script setup>

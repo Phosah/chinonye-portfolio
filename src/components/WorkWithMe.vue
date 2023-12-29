@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-green-300 py-4">
+  <section class="bg-green-300 py-4">
     <h2 class="mb-2">Why you should work with me</h2>
 
-    <div class="flex space-x-6 mb-6">
-      <div class="flex-1 flex space-x-3">
+    <section class="flex space-x-6 mb-6">
+      <section class="flex-1 flex space-x-3">
         <div><img :src="ProblemSolving" alt="Problem solving" /></div>
         <div>
           <h4>Problem Solving</h4>
@@ -13,9 +13,9 @@
             innovative solutions that meet your needs
           </p>
         </div>
-      </div>
+      </section>
 
-      <div class="flex-1 flex space-x-3">
+      <section class="flex-1 flex space-x-3">
         <div><img :src="Approach" alt="Approach" /></div>
         <div>
           <h4>User-Centric Approach</h4>
@@ -25,11 +25,11 @@
             designs that resonate and engage
           </p>
         </div>
-      </div>
-    </div>
+      </section>
+    </section>
 
-    <div class="flex space-x-6">
-      <div class="flex-1 flex space-x-3">
+    <section class="flex space-x-6">
+      <section class="flex-1 flex space-x-3">
         <div><img :src="Creativity" alt="Creativity" /></div>
         <div>
           <h4>Creativity and Innovation</h4>
@@ -40,9 +40,9 @@
             competition
           </p>
         </div>
-      </div>
+      </section>
 
-      <div class="flex-1 flex space-x-3">
+      <section class="flex-1 flex space-x-3">
         <div><img :src="Collaboration" alt="Collaboration" /></div>
         <div>
           <h4>Collaboration (Teamwork)</h4>
@@ -52,9 +52,9 @@
             something amazing as a united force.
           </p>
         </div>
-      </div>
-    </div>
-  </div>
+      </section>
+    </section>
+  </section>
 </template>
 
 <script setup>

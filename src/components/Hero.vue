@@ -9,15 +9,17 @@
     </ul>
     <p>Hire me</p>
   </nav>
-  <div class="flex items-center justify-between py-4">
+
+  <header class="flex items-center justify-between py-4">
     <div>
       <p>Hi there!</p>
       <p>I am Chinonye Umeh, a product designer based in Lagos, Nigeria.</p>
     </div>
+
     <div>
       <img :src="Chinonye" alt="Chinonye" class="h-72" />
     </div>
-  </div>
+  </header>
 </template>
 
 <script setup>

@@ -1,5 +1,5 @@
 <template>
-  <div class="px-4 py-4">
+  <main class="px-4 py-4">
     <Hero />
     <About />
     <Projects />
@@ -8,7 +8,7 @@
     <Testimonials />
     <Contact />
     <FooterBar />
-  </div>
+  </main>
 </template>
 
 <script setup>

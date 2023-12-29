@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-yellow-300 py-4">
+  <section class="bg-yellow-300 py-4">
     <h2>Featured Projects</h2>
 
     <div v-for="(project, ix) in projects" :key="ix">
@@ -12,13 +12,14 @@
       >
         View more projects
       </button>
+
       <button
         class="block w-60 mx-auto px-6 py-2 bg-white text-black border-2 border-black rounded-md"
       >
         Hire me
       </button>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>
