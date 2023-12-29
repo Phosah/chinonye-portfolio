@@ -1,9 +1,9 @@
 <template>
-  <section class="bg-red-300 py-4">
-    <h2 class="mb-2">Testimonials</h2>
+  <section class="my-14 py-4">
+    <h2 class="mb-6 text-3xl text-center text-black-100">Testimonials</h2>
 
-    <section class="flex space-x-4">
-      <div class="p-3 border border-blue-200 rounded-md">
+    <section class="flex space-x-4 text-black-300">
+      <div class="p-3 border border-blue-100 rounded-md">
         <component
           :is="QuotationMarksIcon"
           class="w-12 h-12 shrink-0 text-white"
@@ -20,10 +20,10 @@
         </p>
 
         <p>- Precious Abachukwu</p>
-        <p>Product Designer</p>
+        <p class="text-sm text-gray-300">Product Designer</p>
       </div>
 
-      <div class="p-3 border border-blue-200 rounded-md">
+      <div class="p-3 border border-blue-100 rounded-md">
         <component
           :is="QuotationMarksIcon"
           class="w-12 h-12 shrink-0 text-white"
@@ -40,12 +40,32 @@
         </p>
 
         <p>- Precious Abachukwu</p>
-        <p>Product Designer</p>
+        <p class="text-sm text-gray-300">Product Designer</p>
       </div>
     </section>
+
+    <aside class="flex justify-between my-4">
+      <div>
+        <component
+          :is="LeftArrowIcon"
+          class="w-6 h-6 shrink-0 text-white"
+          aria-hidden="true"
+        ></component>
+      </div>
+
+      <div>
+        <component
+          :is="RightArrowIcon"
+          class="w-6 h-6 shrink-0 text-white"
+          aria-hidden="true"
+        ></component>
+      </div>
+    </aside>
   </section>
 </template>
 
 <script setup>
 import QuotationMarksIcon from "./icons/QuotationMarksIcon.vue";
+import RightArrowIcon from "./icons/RightArrowIcon.vue";
+import LeftArrowIcon from "./icons/LeftArrowIcon.vue";
 </script>

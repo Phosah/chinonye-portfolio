@@ -1,28 +1,28 @@
 <template>
-  <footer class="flex justify-between bg-yellow-300 py-4">
+  <footer class="flex items-center justify-between py-4">
     <section class="flex space-x-4">
-      <div class="inline-block p-2 bg-red-50 rounded-full">
+      <div class="inline-block p-2 bg-blue-100 rounded-full">
         <img :src="Instagram" alt="Instagram" class="h-4 w-4" />
       </div>
 
-      <div class="inline-block p-2 bg-red-50 rounded-full">
+      <div class="inline-block p-2 bg-blue-100 rounded-full">
         <img :src="X" alt="X" class="h-4 w-4" />
       </div>
 
-      <div class="inline-block p-2 bg-red-50 rounded-full">
+      <div class="inline-block p-2 bg-blue-100 rounded-full">
         <img :src="Behance" alt="Behance" class="h-4 w-4" />
       </div>
 
-      <div class="inline-block p-2 bg-red-50 rounded-full">
+      <div class="inline-block p-2 bg-blue-100 rounded-full">
         <img :src="LinkedIn" alt="LinkedIn" class="h-4 w-4" />
       </div>
 
-      <div class="inline-block p-2 bg-red-50 rounded-full">
+      <div class="inline-block p-2 bg-blue-100 rounded-full">
         <img :src="Gmail" alt="Gmail" class="h-4 w-4" />
       </div>
     </section>
 
-    <p>Chinonye Umeh, 2023</p>
+    <p class="text-xs text-black-300">Chinonye Umeh, 2023</p>
 
     <!-- This two components are different icons but show only the same Gmail icon. To fix -->
     <!-- <div>

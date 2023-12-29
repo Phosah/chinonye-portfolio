@@ -1,12 +1,14 @@
 <template>
-  <section class="bg-green-300 py-4">
-    <h2 class="mb-2">Why you should work with me</h2>
+  <section class="my-14 py-4">
+    <h2 class="mb-6 text-3xl text-center text-black-100">
+      Why you should work with me
+    </h2>
 
-    <section class="flex space-x-6 mb-6">
+    <section class="flex space-x-6 mb-12 text-black-300">
       <section class="flex-1 flex space-x-3">
         <div><img :src="ProblemSolving" alt="Problem solving" /></div>
         <div>
-          <h4>Problem Solving</h4>
+          <h4 class="font-semibold">Problem Solving</h4>
           <p>
             I thrive on tackling complex challenges and turning them into
             opportunities. My problem-solving skills are a core asset, ensuring
@@ -15,10 +17,12 @@
         </div>
       </section>
 
-      <section class="flex-1 flex space-x-3">
+      <section
+        class="flex-1 flex space-x-3 pl-8 border-l border-dashed text-black-300"
+      >
         <div><img :src="Approach" alt="Approach" /></div>
         <div>
-          <h4>User-Centric Approach</h4>
+          <h4 class="font-semibold">User-Centric Approach</h4>
           <p>
             I put your users at the heart of every design and decision. With a
             deep commitment to delivering exceptional user experiences, I create
@@ -32,7 +36,7 @@
       <section class="flex-1 flex space-x-3">
         <div><img :src="Creativity" alt="Creativity" /></div>
         <div>
-          <h4>Creativity and Innovation</h4>
+          <h4 class="font-semibold">Creativity and Innovation</h4>
           <p>
             I'm a relentless explorer of creative possibilities. I thrive on
             pushing boundaries and reimagining what's possible with innovative
@@ -42,10 +46,12 @@
         </div>
       </section>
 
-      <section class="flex-1 flex space-x-3">
+      <section
+        class="flex-1 flex space-x-3 pl-8 border-l border-dashed text-black-300"
+      >
         <div><img :src="Collaboration" alt="Collaboration" /></div>
         <div>
-          <h4>Collaboration (Teamwork)</h4>
+          <h4 class="font-semibold">Collaboration (Teamwork)</h4>
           <p>
             Great things are achieved together. I value collaboration and bring
             a positive, constructive approach to every team. Let's create

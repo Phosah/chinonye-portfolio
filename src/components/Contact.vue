@@ -1,10 +1,16 @@
 <template>
-  <section class="flex flex-col items-center bg-blue-300 py-4">
-    <p>Wanna work together?</p>
+  <section
+    class="flex flex-col items-center my-12 bg-blue-100 py-8 px-4 rounded-md"
+  >
+    <div class="mb-10 text-3xl text-center text-black-100">
+      <p>Wanna work together?</p>
 
-    <p>Let’s create something meaningful</p>
+      <p>Let’s create something meaningful</p>
+    </div>
 
-    <button class="w-60 mt-8 bg-black text-white px-4 py-2 rounded-md">
+    <button
+      class="block w-60 mx-auto px-6 py-2 bg-black-200 text-white-100 rounded-md"
+    >
       Contact me
     </button>
   </section>
