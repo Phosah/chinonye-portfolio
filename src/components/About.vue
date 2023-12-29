@@ -1,11 +1,11 @@
 <template>
-  <section class="my-10 py-4">
-    <h2 class="mb-6 text-3xl text-center">About Me</h2>
+  <section class="my-14 py-4">
+    <h2 class="mb-6 text-3xl text-center text-black-100">About Me</h2>
 
     <section class="flex items-center space-x-8">
       <div class="w-1/4">
         <div class="w-max flex flex-col items-center">
-          <h3 class="mb-2 text-2xl">Who am I?</h3>
+          <h3 class="mb-2 text-2xl text-black-100">Who am I?</h3>
 
           <component
             :is="QuestionMarkIcon"
@@ -15,7 +15,7 @@
         </div>
       </div>
 
-      <p class="w-3/4 pl-8 border-l border-dashed">
+      <p class="w-3/4 pl-8 border-l border-dashed text-black-300">
         I am a highly motivated and detail-oriented Product Design professional
         with a passion for creating exceptional user experiences. I help
         businesses transform their ideas into intuitive designs by turning

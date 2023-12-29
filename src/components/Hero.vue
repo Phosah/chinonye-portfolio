@@ -15,7 +15,7 @@
   </nav>
 
   <header
-    class="flex items-center justify-between mb-20 py-6 px-4 bg-blue-100 rounded-md"
+    class="flex items-center justify-between mb-20 py-6 px-8 bg-blue-100 rounded-md"
   >
     <div class="w-2/3 pr-12 text-3xl">
       <p class="mb-4">Hi there!</p>

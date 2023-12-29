@@ -22,7 +22,7 @@ export default {
           100: "#DABDA9",
         },
         purple: {
-          100: "#DABDA9",
+          100: "#B8BFFF",
         },
       },
     },
