@@ -27,6 +27,9 @@ export default {
         gray: {
           100: "#8E8E8E",
         },
+        red: {
+          100: "#E2A3A9",
+        },
       },
       fontFamily: {
         dm: ["DM Serif Display", "serif"],
