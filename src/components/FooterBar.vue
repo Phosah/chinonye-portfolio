@@ -50,7 +50,7 @@
 import Behance from "@/assets/behance.png";
 import Gmail from "@/assets/gmail.png";
 import Instagram from "@/assets/instagram.png";
-import LinkedIn from "@/assets/linkedIn.png";
+import LinkedIn from "@/assets/linkedin.png";
 import X from "@/assets/x.png";
 
 import LinkedInIcon from "./icons/LinkedInIcon.vue";
