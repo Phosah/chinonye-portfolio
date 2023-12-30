@@ -2,7 +2,7 @@
   <section class="my-14 py-4">
     <h2 class="mb-6 text-3xl text-center text-black-100">Testimonials</h2>
 
-    <section class="flex space-x-4 text-black-300">
+    <section class="md:flex md:space-x-4 space-y-4 md:space-y-0 text-black-300">
       <div class="p-3 border border-blue-100 rounded-md">
         <component
           :is="QuotationMarksIcon"

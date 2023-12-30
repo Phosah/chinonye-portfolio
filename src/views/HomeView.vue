@@ -1,5 +1,5 @@
 <template>
-  <main class="max-w-7xl mx-auto px-4 py-4">
+  <main class="font-quicksand max-w-7xl mx-auto px-4 py-4">
     <Hero />
     <About />
     <Projects />
@@ -21,3 +21,10 @@ import Testimonials from "@/components/Testimonials.vue";
 import Contact from "@/components/Contact.vue";
 import FooterBar from "@/components/FooterBar.vue";
 </script>
+
+<style>
+h2 {
+  /* font-family: "dm"; */
+  font-family: "DM Serif Display", serif;
+}
+</style>

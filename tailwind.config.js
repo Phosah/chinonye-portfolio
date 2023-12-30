@@ -24,6 +24,13 @@ export default {
         purple: {
           100: "#B8BFFF",
         },
+        gray: {
+          100: "#8E8E8E",
+        },
+      },
+      fontFamily: {
+        dm: ["DM Serif Display", "serif"],
+        quicksand: ["Quicksand", "sans-serif"],
       },
     },
   },

@@ -18,12 +18,12 @@
         {{ project.text }}
       </p>
 
-      <div class="flex space-x-6 my-4">
+      <div class="md:flex space-y-3 md:space-y-0 md:space-x-6 my-4">
         <div
           v-for="(tag, ix) in project.tags"
           :key="ix"
           :class="tag.bgColor"
-          class="px-3 py-1 text-sm rounded-md"
+          class="px-3 py-1 text-sm rounded-md font-semibold"
         >
           {{ tag.name }}
         </div>

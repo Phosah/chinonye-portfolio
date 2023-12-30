@@ -1,5 +1,7 @@
 <template>
-  <footer class="flex items-center justify-between py-4">
+  <footer
+    class="flex flex-col sm:flex-row space-y-3 items-center justify-between py-4"
+  >
     <section class="flex space-x-4">
       <div class="inline-block p-2 bg-blue-100 rounded-full">
         <img :src="Instagram" alt="Instagram" class="h-4 w-4" />
@@ -22,7 +24,7 @@
       </div>
     </section>
 
-    <p class="text-xs text-black-300">Chinonye Umeh, 2023</p>
+    <p class="text-xs text-black-300 font-quicksand">Chinonye Umeh, 2024</p>
 
     <!-- This two components are different icons but show only the same Gmail icon. To fix -->
     <!-- <div>

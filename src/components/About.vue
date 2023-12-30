@@ -5,7 +5,7 @@
     <section class="flex items-center space-x-8">
       <div class="w-1/4">
         <div class="w-max flex flex-col items-center">
-          <h3 class="mb-2 text-2xl text-black-100">Who am I?</h3>
+          <h3 class="mb-2 md:text-2xl text-black-100 font-medium">Who am I?</h3>
 
           <component
             :is="QuestionMarkIcon"
@@ -15,7 +15,9 @@
         </div>
       </div>
 
-      <p class="w-3/4 pl-8 border-l border-dashed text-black-300">
+      <p
+        class="w-3/4 pl-8 border-l border-dashed text-black-300 text-sm md:text-base"
+      >
         I am a highly motivated and detail-oriented Product Design professional
         with a passion for creating exceptional user experiences. I help
         businesses transform their ideas into intuitive designs by turning
